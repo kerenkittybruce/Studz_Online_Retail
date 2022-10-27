@@ -16,6 +16,62 @@
     />
     <title>STUDZ!</title>
     <header class="showcase">
+      <!-- NavBar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">STUDZ!</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+                <!-- Products split button -->
+                <div class="btn-group">
+                                    <button type="button" class="btn">Products</button>
+                                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Merch</a></li>
+                      <li><a class="dropdown-item" href="#">Comics</a></li>
+                      <li><a class="dropdown-item" href="#">Cafe</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Want your band to play at our store?</a></li>
+                    </ul>
+                  </div>                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <div class="showcase-top d-flex">
         <img
           class="img.responsive"
@@ -30,5 +86,5 @@
       </h1>
     </header>
   </head>
-  <body class="bg-primary"></body>
+  <body class="bg-dark"></body>
 </html>
